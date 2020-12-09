@@ -1,0 +1,148 @@
+@media(max-width: 992px){
+	.container{
+		width: 960px;
+
+	}
+}
+@media(max-width: 768px){
+	.container{
+		width: 720px;
+	}
+	.nav-item__link{
+		font-size: 10px;
+		padding: 2px 0;
+	}
+	.Biznesingizni-section > .container{
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+	.Biznesingizni-section-info{
+		width: 100%;
+		text-align: center;
+	}
+	.Biznesingizni-section-video{
+		width: 100%;
+		height: 350px;
+		margin-bottom: 20px;
+	}
+	.Biznesingizni-section-video > iframe{
+		height: 100%;
+	}
+	.Biznesingizni-section-info__title{
+		margin: 0 auto;
+	}
+	.Biznesingizni-section-info__subtitle{
+		margin: 10px auto;
+	}
+}
+@media(max-width: 576px){
+	.container{
+		width: 540px;
+	}
+	.nav{
+		width: 100%;
+	}
+	.nav > .container{
+		flex-wrap: wrap;
+	}
+	.nav-list{
+		flex-wrap: wrap;
+	}
+	.nav__loog{
+		width: 40px;
+	}
+	.nav-item__link{
+		font-size: 8px; 
+	}
+	.nav-item__btn{
+		font-size: 8px;
+	}
+	.xizmatlar-section__subtitle{
+		width: 80%;
+	}
+	.xizmatlar-section-item{
+		width: 90%;
+	}
+	.qandaIshlaymiz-section__subtitle{
+		width: 80%;
+		font-size: 10px;
+	}
+	.buyurtma-section__subtitle{
+		width: 80%;
+	}
+	.footer-item__subtitle{
+		font-size: 10px;
+	}
+	.footer-item__link{
+		font-size: 12px;
+	}
+	.qandaIshlaymiz-section-item{
+		flex-wrap: wrap;
+		display: flex;
+	}
+	.qandaIshlaymiz-section-item__img{
+		width: 60%;
+		margin: 15px auto;
+	}
+	.qandaIshlaymiz-section-item__info{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.qandaIshlaymiz-section-item__title{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.qandaIshlaymiz-section-item_subtext{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.buyurtma-section-list{
+		width: 45%;
+		padding: 0;
+	}
+	.buyurtma-section-list__int{
+		width: 80%;
+		margin: 10px auto
+	}
+	.buyurtma-section__btn{
+		width: 35%;
+	}
+}
+@media(max-width: 500px){
+	.container{
+		width: 90%;
+	}
+	.nav-item__link{
+		font-size: 6px;
+	}
+	.nav-item__btn{
+		font-size: 6px;
+	}
+	.qandaIshlaymiz-section-item{
+		flex-wrap: wrap;
+	}
+	.qandaIshlaymiz-section-item__img{
+		width: 80%;
+	}
+	.qandaIshlaymiz-section-item__info{
+		width: 80%;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.Biznesingizni-section-info__title{
+		width: 80%;
+	}
+	.xizmatlar-section__subtitle{
+		width: 80%;
+	}
+	.qandaIshlaymiz-section__title{
+		width: 80%;
+	}
+	.qandaIshlaymiz-section__subtitle{
+		width: 80%;
+	}
+	.Biznesingizni-section-info__subtitle{
+		width: 80%;
+	}
+}
