@@ -1,148 +1,171 @@
-@media(max-width: 992px){
+@media(max-width: 1140px){
 	.container{
-		width: 960px;
-
+		width: 900px;
 	}
 }
-@media(max-width: 768px){
+@media(max-width: 900px){
 	.container{
-		width: 720px;
+		width: 800px;
 	}
-	.nav-item__link{
-		font-size: 10px;
-		padding: 2px 0;
+}
+@media(max-width: 800px){
+	.container{
+		width: 700px;
+	}
+	.nav > .container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.nav__loog{
+		width: 70px;
+		margin-bottom: 10px;
 	}
 	.Biznesingizni-section > .container{
-		flex-wrap: wrap;
 		flex-direction: column-reverse;
+		padding-top: 30px;
 	}
 	.Biznesingizni-section-info{
 		width: 100%;
 		text-align: center;
+		margin: 0 auto;
+	}
+	.Biznesingizni-section-info__title{
+		margin: 0 auto;
+	}	
+	.Biznesingizni-section-info__subtitle{
+		margin: 15px auto;
 	}
 	.Biznesingizni-section-video{
 		width: 100%;
-		height: 350px;
-		margin-bottom: 20px;
+		min-height: 450px;
+		margin-bottom: 30px;
 	}
-	.Biznesingizni-section-video > iframe{
-		height: 100%;
-	}
-	.Biznesingizni-section-info__title{
-		margin: 0 auto;
-	}
-	.Biznesingizni-section-info__subtitle{
-		margin: 10px auto;
-	}
+
 }
-@media(max-width: 576px){
+@media(max-width: 720px){
 	.container{
-		width: 540px;
-	}
-	.nav{
-		width: 100%;
-	}
-	.nav > .container{
-		flex-wrap: wrap;
+		width: 600px;
 	}
 	.nav-list{
-		flex-wrap: wrap;
+		margin: 0;
+		padding: 15px 0;
+		justify-content: space-around;
+		width: 100%;
 	}
-	.nav__loog{
-		width: 40px;
+	.nav-item{
+		display: none;
 	}
-	.nav-item__link{
-		font-size: 8px; 
-	}
-	.nav-item__btn{
-		font-size: 8px;
-	}
-	.xizmatlar-section__subtitle{
-		width: 80%;
+	.nav__btn{
+		display: block;
 	}
 	.xizmatlar-section-item{
-		width: 90%;
-	}
-	.qandaIshlaymiz-section__subtitle{
-		width: 80%;
-		font-size: 10px;
-	}
-	.buyurtma-section__subtitle{
-		width: 80%;
-	}
-	.footer-item__subtitle{
-		font-size: 10px;
-	}
-	.footer-item__link{
-		font-size: 12px;
-	}
-	.qandaIshlaymiz-section-item{
-		flex-wrap: wrap;
-		display: flex;
-	}
-	.qandaIshlaymiz-section-item__img{
-		width: 60%;
-		margin: 15px auto;
-	}
-	.qandaIshlaymiz-section-item__info{
-		width: 80%;
-		margin: 0 auto;
 		text-align: center;
 	}
-	.qandaIshlaymiz-section-item__title{
-		width: 80%;
-		margin: 0 auto;
-	}
-	.qandaIshlaymiz-section-item_subtext{
-		width: 80%;
-		margin: 0 auto;
-	}
-	.buyurtma-section-list{
-		width: 45%;
-		padding: 0;
-	}
-	.buyurtma-section-list__int{
-		width: 80%;
-		margin: 10px auto
-	}
-	.buyurtma-section__btn{
-		width: 35%;
-	}
-}
-@media(max-width: 500px){
-	.container{
-		width: 90%;
-	}
-	.nav-item__link{
-		font-size: 6px;
-	}
-	.nav-item__btn{
-		font-size: 6px;
-	}
-	.qandaIshlaymiz-section-item{
-		flex-wrap: wrap;
-	}
-	.qandaIshlaymiz-section-item__img{
-		width: 80%;
-	}
-	.qandaIshlaymiz-section-item__info{
-		width: 80%;
-		margin-top: 20px;
-		text-align: center;
-	}
-	.Biznesingizni-section-info__title{
-		width: 80%;
+	.xizmatlar-section-item > img{
+		width: 100%;
 	}
 	.xizmatlar-section__subtitle{
-		width: 80%;
-	}
-	.qandaIshlaymiz-section__title{
-		width: 80%;
+		width: 600px;
 	}
 	.qandaIshlaymiz-section__subtitle{
-		width: 80%;
+		width: 600px;
+	}
+	.buyurtma-section__subtitle{
+		width: 600px;
+	}
+}
+@media(max-width: 620px){
+	.container{
+		width: 85%;
+	}
+	.Biznesingizni-section-video{
+		min-height: 300px;
 	}
 	.Biznesingizni-section-info__subtitle{
-		width: 80%;
+		width: 100%;
+	}
+	.xizmatlar-section__subtitle{
+		width: 100%;
+	}
+	.xizmatlar-section-item{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.qandaIshlaymiz-section__subtitle{
+		width: 100%;
+	}
+	.qandaIshlaymiz-section-item{
+		flex-wrap: wrap;
+		margin: 10px 0;
+	}
+	.qandaIshlaymiz-section-item__img{
+		width: 100%;
+	}
+	.qandaIshlaymiz-section-item__info{
+		width: 100%;
+		text-align: center;
+	}
+	.buyurtma-section__subtitle{
+		width: 100%;
+	}
+	.footer-list{
+		flex-wrap: wrap;
+	}
+
+	.footer-item{
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.footer-item__link{
+		width: 20%;
+		margin: 2.5px auto;
+		padding: 2px;
+		transition: background-color 0.4s;
+	}
+	.footer-item__link:hover{
+		background-color: rgba(255,255,255,0.1);
+		border-radius: 5px;
+	}
+	.footer-item-link{
+		margin: 2.5px auto;
+		padding: 2.5px;
+		transition: background-color 0.4s;
+	}
+	.footer-item-link:hover{
+		background-color: rgba(255,255,255,0.1);
+		border-radius: 5px;
+	}
+	.footer-item-link{
+		width: 120px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.Biznesingizni-section-info__title{
+		width: 100%;
+	}
+	.xizmatlar-section__title{
+		width: 100%;
+	}
+	.qandaIshlaymiz-section__title{
+		width: 100%;
+	}
+	.buyurtma-section__title{
+		width: 100%;
+	}	
+}
+@media(max-width: 340px){
+	.buyurtma-section-list{
+		width: 95%;
+	}
+	.footer-item__title{
+		width: 100%;
+	}
+	.buyurtma-section__btn{
+		width: 100%;
+		overflow-x: hidden;
 	}
 }
