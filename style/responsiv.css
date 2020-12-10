@@ -151,6 +151,9 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+	.qandaIshlaymiz-section-item__img{
+		margin: 20px 0;
+	}
 }
 @media(max-width: 340px){
 	.buyurtma-section-list{
